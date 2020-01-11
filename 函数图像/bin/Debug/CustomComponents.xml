@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomComponents</name>
+    </assembly>
+    <members>
+        <member name="T:CustomComponents.MyMessageBox">
+            <summary>
+            弹出提示窗口
+            </summary>
+        </member>
+        <member name="T:CustomComponents.MyMessageBox.MyMessageBoxButton">
+            <summary>
+            弹出窗口的按钮选择
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxButton.ConfirmNO">
+            <summary>
+            显示确认与取消按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxButton.ConfirmNOButton">
+            <summary>
+            显示确认取消与自定义按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxButton.Confirm">
+            <summary>
+            显示确认按钮
+            </summary>
+        </member>
+        <member name="T:CustomComponents.MyMessageBox.MyMessageBoxResult">
+            <summary>
+            弹窗返回的用户选择
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxResult.Comfirm">
+            <summary>
+            用户点击了确认
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxResult.No">
+            <summary>
+            用户点击了取消
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxResult.Buttons">
+            <summary>
+            用户点击了自定义按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MyMessageBox.MyMessageBoxResult.None">
+            <summary>
+            用户未点击按钮
+            </summary>
+        </member>
+        <member name="M:CustomComponents.MyMessageBox.Show(System.String,System.String,CustomComponents.MyMessageBox.MyMessageBoxButton,System.String,System.String,System.String)">
+            <summary>
+            弹出提示窗口
+            </summary>
+            <param name="Text">弹窗内容</param>
+            <param name="TitleText">弹窗标题</param>
+            <param name="myMessageBoxButton">按钮配置</param>
+            <param name="ConfirmText">确认按钮信息</param>
+            <param name="NoText">取消按钮信息</param>
+            <param name="ButtonText">自定义按钮信息</param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomComponents.InputBox">
+            <summary>
+            弹出用户输入信息窗口
+            </summary>
+        </member>
+        <member name="T:CustomComponents.InputBox.ButtonType">
+            <summary>
+            按钮类型
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InputBox.ButtonType.YesNo">
+            <summary>
+            显示是否按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InputBox.ButtonType.Yes">
+            <summary>
+            显示是按钮
+            </summary>
+        </member>
+        <member name="M:CustomComponents.InputBox.Show(System.String,System.String,CustomComponents.InputBox.ButtonType,System.Windows.WindowStartupLocation,System.Windows.WindowStyle)">
+            <summary>
+            弹出信息输入框
+            </summary>
+            <param name="content">信息提示</param>
+            <param name="title">窗口标题</param>
+            <param name="type">按钮个数</param>
+            <param name="startupLocation">启动位置</param>
+            <param name="windowStyle">窗口样式</param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomComponents.HelpTextLabel">
+            <summary>
+            暂时的提示框
+            </summary>
+        </member>
+        <member name="M:CustomComponents.HelpTextLabel.SetTimeTick(System.Double)">
+            <summary>
+            文本提示显示时间
+            </summary>
+            <param name="t">设置隐藏提示的时间间隔</param>
+        </member>
+        <member name="M:CustomComponents.HelpTextLabel.SetBackGround(System.Byte,System.Byte,System.Byte,System.Byte)">
+            <summary>
+            设置文本框的背景色
+            </summary>
+            <param name="a">透明度</param>
+            <param name="r">红</param>
+            <param name="g">绿</param>
+            <param name="b">蓝</param>
+        </member>
+        <member name="M:CustomComponents.HelpTextLabel.SetFontColor(System.Windows.Media.Brush)">
+            <summary>
+            设置提示字体的颜色
+            </summary>
+            <param name="color">需要设置的颜色</param>
+        </member>
+        <member name="M:CustomComponents.HelpTextLabel.#ctor(System.Windows.Controls.Label)">
+            <summary>
+            初始化
+            </summary>
+            <param name="Prototype">作为提示框的目标Label组件</param>
+        </member>
+        <member name="M:CustomComponents.HelpTextLabel.HelpText(System.String,System.Windows.Point)">
+            <summary>
+            调用组件
+            </summary>
+            <param name="content"></param>
+            <param name="point"></param>
+        </member>
+    </members>
+</doc>
