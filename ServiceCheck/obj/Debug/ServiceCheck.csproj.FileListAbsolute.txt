@@ -1,0 +1,10 @@
+D:\WorkData\ServiceCheck\bin\Debug\ServiceCheck.exe.config
+D:\WorkData\ServiceCheck\bin\Debug\ServiceCheck.exe
+D:\WorkData\ServiceCheck\bin\Debug\ServiceCheck.pdb
+D:\WorkData\ServiceCheck\bin\Debug\SysTool.dll
+D:\WorkData\ServiceCheck\bin\Debug\SysTool.pdb
+D:\WorkData\ServiceCheck\bin\Debug\SysTool.xml
+D:\WorkData\ServiceCheck\obj\Debug\ServiceCheck.csprojAssemblyReference.cache
+D:\WorkData\ServiceCheck\obj\Debug\ServiceCheck.csproj.CopyComplete
+D:\WorkData\ServiceCheck\obj\Debug\ServiceCheck.exe
+D:\WorkData\ServiceCheck\obj\Debug\ServiceCheck.pdb

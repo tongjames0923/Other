@@ -1,0 +1,9 @@
+D:\WorkData\ServiceCheck\bin\Release\ServiceCheck.exe.config
+D:\WorkData\ServiceCheck\bin\Release\ServiceCheck.exe
+D:\WorkData\ServiceCheck\bin\Release\ServiceCheck.pdb
+D:\WorkData\ServiceCheck\bin\Release\SysTool.dll
+D:\WorkData\ServiceCheck\bin\Release\SysTool.pdb
+D:\WorkData\ServiceCheck\bin\Release\SysTool.xml
+D:\WorkData\ServiceCheck\obj\Release\ServiceCheck.csproj.CopyComplete
+D:\WorkData\ServiceCheck\obj\Release\ServiceCheck.exe
+D:\WorkData\ServiceCheck\obj\Release\ServiceCheck.pdb
